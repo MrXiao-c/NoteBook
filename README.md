@@ -168,7 +168,7 @@ et_title.addTextChangedListener(new TextWatcher() {
 
 这个方法没有第一种方法人性化，用户体验较差
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/F4LJ0Y9J%AWH[}A]C3]6(4L.png" width = "350" height = "570" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/F4LJ0Y9J%25AWH%5B%7DA%5DC3%5D6(4L.png" width = "350" height = "570" align=center />
 
 ### 给查询按钮添加一个监听器
 
