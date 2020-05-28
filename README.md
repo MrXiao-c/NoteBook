@@ -3,7 +3,7 @@
 
 ## 编辑框的时间戳
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/Q9U8@3O{Q4SL]ET71]}E`F1.png" width = "350" height = "570" align=center />
 
 ### 获取系统时间并转换格式
 
@@ -66,7 +66,7 @@ private void initView(){
 
 ## 记事本列表的时间戳
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/ZX@}371AIK6F0{XWKHJK{GU.png" width = "350" height = "570" align=center />
 
 ### 从数据库获取每个笔记的时间
 ```
@@ -168,7 +168,7 @@ et_title.addTextChangedListener(new TextWatcher() {
 
 这个方法没有第一种方法人性化，用户体验较差
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/F4LJ0Y9J%AWH[}A]C3]6(4L.png" width = "350" height = "570" align=center />
 
 ### 给查询按钮添加一个监听器
 
@@ -201,7 +201,7 @@ private void setListener(){
 
 ## 清空文本框
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/TUJT7]5D_4{UWUT5Q[2~HWC.png" width = "350" height = "570" align=center />
 
 ### 把EditTtext的内容置为空
 
