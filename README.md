@@ -3,6 +3,7 @@
 
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
+
 ## 编辑框的时间戳
 获取系统时间并转换格式
 
@@ -194,7 +195,7 @@ private void setListener(){
 
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
 
-清空文本框
+## 清空文本框
 
 把EditTtext的内容置为空
 
