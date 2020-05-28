@@ -2,11 +2,62 @@
 时间戳的编写包括记事本编辑区域的时间展示和记事本列表的时间展示
 
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
-
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
+## 编辑框的时间戳
+获取系统时间并转换格式
+```
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Log.v("时间：",sdf.format(date));
+        tv_now.setText(sdf.format(date));
+```
+把时间保存到数据库
+```
+private void saveNote(){
+        NoteDataBaseHelper dbHelper = MainActivity.getDbHelper();
+
+        ContentValues values = new ContentValues();
+        values.put(Note.title,et_title.getText().toString());
+        values.put(Note.content,et_content.getText().toString());
+        values.put(Note.time,tv_now.getText().toString());
+        if (insertFlag){
+            Note.insertNote(dbHelper,values);
+        }else{
+            Note.updateNote(dbHelper,Integer.parseInt(currentNote.getId()),values);
+        }
+    }
+```
+关于时间的布局
+```
+<TextView
+        android:id="@+id/tv_now"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#A5BECE"
+        android:textAlignment="textEnd"
+        android:gravity="end|center_vertical"
+        android:paddingRight="8dp"/>
+```
+
+初始化视图
+```
+private void initView(){
+        btn_save = findViewById(R.id.btn_save);
+        btn_return = findViewById(R.id.btn_return);
+        tv_now = findViewById(R.id.tv_now);
+        et_content = findViewById(R.id.edit_content);
+        et_title = findViewById(R.id.edit_title);
+        //以下为测试代码
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Log.v("时间：",sdf.format(date));
+        tv_now.setText(sdf.format(date));
+
+    }
+```
+## 记事本列表的时间戳
 
 # 查询功能 
-
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
 
 
@@ -53,3 +104,6 @@ protected void onDestroy() {
 8、引用
 > 第一行引用文字  
 > 第二行引用文字   
+
+
+
