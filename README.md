@@ -5,7 +5,7 @@
 <img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
 
 ## 编辑框的时间戳
-获取系统时间并转换格式
+### 获取系统时间并转换格式
 
 ```
         Date date = new Date();
@@ -14,7 +14,7 @@
         tv_now.setText(sdf.format(date));
 ```
 
-把时间保存到数据库，每次修改都更新一次时间
+### 把时间保存到数据库，每次修改都更新一次时间
 
 ```
 private void saveNote(){
@@ -33,7 +33,7 @@ private void saveNote(){
     
 ```
 
-关于时间的布局
+### 关于时间的布局
 
 ```
 <TextView
@@ -46,7 +46,7 @@ private void saveNote(){
         android:paddingRight="8dp"/>
 ```
 
-初始化视图
+### 初始化视图
 
 ```
 private void initView(){
@@ -66,7 +66,7 @@ private void initView(){
 
 ## 记事本列表的时间戳
 
-从数据库获取每个笔记的时间
+### 从数据库获取每个笔记的时间
 ```
 //从数据库中读取所有笔记 封装成List<NoteInfo>
     private void getNoteList(){
@@ -83,7 +83,7 @@ private void initView(){
     }
 ```
 
-初始化试图
+### 初始化试图
 
 ```
 public ViewHolder(View itemView) {
@@ -97,7 +97,7 @@ public ViewHolder(View itemView) {
 
     }
 ```
-时间布局
+### 时间布局
 
 ```
 <TextView
@@ -114,8 +114,8 @@ public ViewHolder(View itemView) {
 
 ## 通过EditText内容的动态变化来实现查询
 
-```
-通过标题来模糊查询数据库的数据
+
+### 通过标题来模糊查询数据库的数据
 
 ```
 private void getSelectNoteList(String title){
@@ -133,7 +133,7 @@ private void getSelectNoteList(String title){
 ```
 
 
-当EditText内容发生变化时会调用此方法，根据内容变化动态来查询数据库的数据，然后把数据装配到适配器中，从而把列表显示出来
+### 当EditText内容发生变化时会调用此方法，根据内容变化动态来查询数据库的数据，然后把数据装配到适配器中，从而把列表显示出来
 
 ```
 et_title.addTextChangedListener(new TextWatcher() {
@@ -166,7 +166,7 @@ et_title.addTextChangedListener(new TextWatcher() {
 
 这个方法没有第一种方法人性化，用户体验较差
 
-给查询按钮添加一个监听器
+### 给查询按钮添加一个监听器
 
 ```
 private void setListener(){
@@ -197,7 +197,7 @@ private void setListener(){
 
 ## 清空文本框
 
-把EditTtext的内容置为空
+### 把EditTtext的内容置为空
 
 ```
 search_del.setOnClickListener(new View.OnClickListener() {
