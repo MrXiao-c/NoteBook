@@ -1,10 +1,10 @@
 # 时间戳
 时间戳的编写包括记事本编辑区域的时间展示和记事本列表的时间展示
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
-
 ## 编辑框的时间戳
+
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+
 ### 获取系统时间并转换格式
 
 ```
@@ -66,6 +66,8 @@ private void initView(){
 
 ## 记事本列表的时间戳
 
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+
 ### 从数据库获取每个笔记的时间
 ```
 //从数据库中读取所有笔记 封装成List<NoteInfo>
@@ -113,7 +115,7 @@ public ViewHolder(View itemView) {
 # 查询功能
 
 ## 通过EditText内容的动态变化来实现查询
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "500" height = "600" align=center />
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
 
 ### 通过标题来模糊查询数据库的数据
 
@@ -166,6 +168,8 @@ et_title.addTextChangedListener(new TextWatcher() {
 
 这个方法没有第一种方法人性化，用户体验较差
 
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
+
 ### 给查询按钮添加一个监听器
 
 ```
@@ -193,9 +197,11 @@ private void setListener(){
         });
 ```
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
+
 
 ## 清空文本框
+
+<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/@JDTPTZ6MAC5KA9P]ZR}~`E.png" width = "350" height = "570" align=center />
 
 ### 把EditTtext的内容置为空
 
