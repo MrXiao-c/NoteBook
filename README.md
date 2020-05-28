@@ -162,7 +162,7 @@ et_title.addTextChangedListener(new TextWatcher() {
         });
 ```
 
-<img src="https://github.com/MrXiao-c/MyNoteBook/blob/master/screenshots/%40JDTPTZ6MAC5KA9P%5DZR%7D~%60E.png" width = "200" height = "300" align=center />
+
 
 ## 通过按钮来实现查询
 
